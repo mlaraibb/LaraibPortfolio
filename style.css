@@ -451,14 +451,13 @@ section video{
   line-height: 1;
   font-size: 22px;
   text-align: center;
-  width: 100%;
   font-family: 'Segoe UI', sans-serif;
    
   
 }
  button{
   position: absolute;
-  top: 9.5rem;
+  top: 14rem;
   right: 7rem;
   border: none;
   border-radius: 1rem;
@@ -471,7 +470,7 @@ font-weight: 900;
 }
 .resume{
   position: absolute;
-  top: 12em;
+  top: 16em;
   right: 7rem;
   border: none;
   border-radius: 1rem;
