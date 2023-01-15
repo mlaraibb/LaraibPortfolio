@@ -125,20 +125,47 @@ video {
     font-family: 'Segoe UI', sans-serif;
     
   }
-  button{
-    position: relative;
-    top: 5rem;
-    right: 5rem;
-    padding: 1rem;
-    border: none;
-    border-radius: 1rem;
-    width: 200px;
-    cursor: pointer;
-   background-color: #450003;
-   color: #b23e68;
-  font-size: 18px;
-  font-weight: 900;
-  }
+  .resume{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 60rem;
+    top: 20rem;
+   }
+   .resume a{
+     position: absolute;
+     text-align: center;
+     top: 6rem;
+     right: 20rem;
+     padding: 1.2rem;
+     border: none;
+     border-radius: 1rem;
+     width: 200px;
+     cursor: pointer;
+    background-color: #450003;
+    color: #b23e68;
+   font-size: 18px;
+   font-weight: 900;
+   font-family: 'Segoe UI', sans-serif;
+   }
+   .resume a:hover{
+     color: black;
+   }
+   button{
+     position: relative;
+     top: 5.2em;
+     right: rem;
+     padding: 1rem;
+     border: none;
+     border-radius: 1rem;
+     width: 200px;
+     cursor: pointer;
+    background-color: #450003;
+    color: #b23e68;
+   font-size: 18px;
+   font-weight: 900;
+   }
   button:hover{
     background-color:#d21d5c ;
     color: black;
@@ -455,23 +482,10 @@ section video{
    
   
 }
- button{
-  position: absolute;
-  top: 14rem;
-  right: 7rem;
-  border: none;
-  border-radius: 1rem;
-  width: 200px;
-  cursor: pointer;
- background-color: #450003;
- color: #b23e68;
-font-size: 18px;
-font-weight: 900;
-}
 .resume{
   position: absolute;
-  top: 16em;
-  right: 7rem;
+  top:50rem;
+  left: 30rem;
   border: none;
   border-radius: 1rem;
   width: 200px;
@@ -481,6 +495,21 @@ font-weight: 900;
 font-size: 18px;
 font-weight: 900;
 }
+button{
+  position: relative;
+  top:10rem;
+  right: 20rem;
+  padding: 1rem;
+  border: none;
+  border-radius: 1rem;
+  width: 200px;
+  cursor: pointer;
+ background-color: #450003;
+ color: #b23e68;
+font-size: 18px;
+font-weight: 900;
+}
+
 .slider-container{
   height: 200vh;
   padding: 2rem;
